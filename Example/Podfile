@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HR_TimeStamp_Example' do
+  pod 'HR_TimeStamp', :path => '../'
+
+  target 'HR_TimeStamp_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
