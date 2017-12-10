@@ -1,0 +1,6 @@
+framework module HR_TimeStamp {
+  umbrella header "HR_TimeStamp-umbrella.h"
+
+  export *
+  module * { export * }
+}
